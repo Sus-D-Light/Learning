@@ -1,0 +1,61 @@
+.Container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   height: inherit;
+}
+
+.Card{
+    max-width: 750px;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.Card h1 {
+    font-size: 100px;
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+}
+.Card p{
+    padding: 10px;
+    margin: 10px;
+}
+.Card a {
+    border: 1px solid white;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    margin:  0px  auto;
+    margin-top: 34px;
+    display: block;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 185px;
+    height:50px;
+    position: relative;
+    
+}
+.Card a:visited{
+    outline: none;
+    text-decoration: none !important;
+
+}
+/* need to solve  */
+.Card a::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2098d1;
+}
+
+.Card a:hover{
+    background: white;
+}

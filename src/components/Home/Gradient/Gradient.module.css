@@ -1,0 +1,10 @@
+.overlay{
+    width: 100%;
+    height: inherit;
+    background:#c21500;
+    background: linear-gradient(to left, #c21500 , #ffc500);
+    opacity:0.8;
+    position: absolute;
+    z-index: -2;
+    overflow: hidden;
+}
