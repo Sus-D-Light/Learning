@@ -31,3 +31,10 @@
     transform: rotate(135deg) translate(-0.4375rem,0.5rem) ;
     transition: ease-out 0.5s;
 }
+
+
+@media(min-width: 980px){
+    .burger-menu{
+        display: none;
+    }
+  }
