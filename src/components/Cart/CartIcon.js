@@ -6,3 +6,4 @@ const CartIcon=()=>{
 export default CartIcon
 
 const data = 512512;
+

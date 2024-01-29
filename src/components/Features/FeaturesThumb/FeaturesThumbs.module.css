@@ -1,6 +1,42 @@
 .conatiner{
-    width: 200px;
-    height: 200px;
-    background-color: cadetblue;
+    max-width: 360px;
+   max-height: 300px;
+   min-width: 290px;
+   padding: 40px;
     margin: 20px;
+    display: flex;
+   background-color: white;
+    flex:1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+.conatiner h3{
+    margin-top: 50px;
+    text-transform:uppercase;
+    font-size:20px;
+    
+}
+.conatiner h3,
+.conatiner p{
+    
+    width: 100%;
+    font-family: 'Montserrat','sans-serif';
+    text-align: center;
+
+    
+}
+.thumb{
+  
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: -30px;
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
 }

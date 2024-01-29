@@ -1,8 +1,12 @@
-import Class from "./FeaturesThumbs.module.css"
+import Classs from "./FeaturesThumbs.module.css"
 const FeaturesThumbs = (props)=>{
     
-    return (<div className={Class.conatiner}>
+    return (<div className={Classs.conatiner}>
+      <div className={Classs.thumb}>
       {props.children}
+      </div>
+      <h3>{props.heading}</h3>
+      <p>{props.about}</p>
     </div>)
 }
 export default FeaturesThumbs;
